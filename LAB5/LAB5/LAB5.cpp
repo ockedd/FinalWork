@@ -8,17 +8,17 @@
 
 int main() {
 setlocale(LC_ALL, "rus");
-int fact = 1, n = 1;
-double x, sum = 1, s1 = 0, s2 = 0;
+int facto = 1, ne = 1;
+double xs, suma = 1, s21 = 0, s32 = 0;
 printf("¬ведите x: ");
-scanf_s("%lf", &x);
+scanf_s("%lf", &xs);
 do {
-fact *= n;
-s1 = s2;
-s2 = pow(x, n) / fact;
-sum += s2;
-n++;
-} while (s2 - s1 >= 0.001);
-printf("—умма равна: %4lf\n", sum);
+facto *= ne;
+s21 = s32;
+s32 = pow(xs, ne) / facto;
+suma += s32;
+ne++;
+} while (s32 - s21 >= 0.001);
+printf("—умма равна: %4lf\n", suma);
 return 0;
 }
