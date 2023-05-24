@@ -11,7 +11,7 @@ setlocale(LC_ALL, "rus");
 int facto = 1;
 int ne = 1;
 double xs;
-double suma = 1; // конечна€ сумма 
+double suma = 1; // конечна€ сум
 double s21 = 0;
 double s32 = 0;
 printf("¬ведите x: ");
