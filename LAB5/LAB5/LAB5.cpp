@@ -8,8 +8,12 @@
 
 int main() {
 setlocale(LC_ALL, "rus");
-int facto = 1, ne = 1;
-double xs, suma = 1, s21 = 0, s32 = 0;
+int facto = 1;
+int ne = 1;
+double xs;
+double suma = 1; // конечна€ сумма 
+double s21 = 0;
+double s32 = 0;
 printf("¬ведите x: ");
 scanf_s("%lf", &xs);
 do {
